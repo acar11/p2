@@ -1,142 +1,106 @@
 @import "http://fonts.googleapis.com/css?family=Raleway";
-/* Above line is used for online google font */
+/* Line above used for online google font */
 h2 {
 background-color:#FEFFED;
 padding:30px 35px; /* padding:30px 35px; */
 margin:-10px -120px; /* margin:-10px -50px; */
 text-align:center;
-border-radius:10px 10px 0 0
+border-radius:10px 10px 0 0;
 }
 span {
 display:block;
 margin-top:10px;
-color:green
-}
-p {
 color:green;
-font-weight:700;
-clear:both;
-padding:15px
 }
+
 hr {
 margin:10px -50px;
 border:0;
 border-top:1px solid #ccc;
-margin-bottom:25px
+margin-bottom:25px;
 }
+
 div.container {
 width:900px;
 height:610px;
 margin:35px auto;
-font-family:'Raleway',sans-serif
+font-family:'Raleway',sans-serif;
 }
-div.main {
 
+div.main {
 width:356px; /* 356 */
-height:440px; /* 430px */
+height:450px; /* 430px */
 padding:10px 120px; /* padding:10px 100px; */
 border:2px solid gray;
 border-radius:10px;
 font-family:raleway;
-float:left
-
+float:left;
 }
 
 input[type=text] {
-
 width:25%;
 height:25px;
 padding:5px;
-
 position:relative;
 left:290px;
 top:-5px;
-
-/*margin:10px 300px;
-margin-bottom:20px;
-margin-top:5px;*/
-
 border:2px solid #ccc;
 color:#4f4f4f;
 font-size:16px;
 border-radius:5px;
 text-align: center;
-
 }
-
-/*input[type=radio],input[type=checkbox] {
-margin:10px 20px 0
-} */
 
 label {
 color:#464646;
 text-shadow:0 1px 0 #fff;
 font-size:14px;
-font-weight:700
+font-weight:700;
 }
 
 label.words {
-
 position:relative;
 left:-2px;
 top:25px;
-
-/*margin:55px auto;
-margin-bottom:50px;
-margin-top:30px;*/
-
 color:#464646;
 text-shadow:0 1px 0 #fff;
 font-size:15px;
-font-weight:700
+font-weight:700;
 }
 
 label.numbers {
-
 position:relative;
 left:-110px;
 top:30px;
-
 color:#464646;
 text-shadow:0 1px 0 #fff;
 font-size:15px;
-font-weight:700
-
+font-weight:700;
 }
 
 input[type=checkbox].numb_box {
-
 position:relative;
 left:-100px;
 top:30px;
-
 }
 
-
 label.symbols {
-
 position:relative;
 left:-247px;
 top:60px;
-
-
 color:#464646;
 text-shadow:0 1px 0 #fff;
 font-size:15px;
-font-weight:700
-
+font-weight:700;
 }
 
 input[type=checkbox].symb_box {
-
 position:relative;
 left: 123px; /* 122px */
 top:34px;
-
 }
 
 div.show {
-
 background-color:#e8e8e8;
 padding:30px 35px;
 margin:12px -115px; /* margin:3px -30px; */
@@ -145,15 +109,12 @@ border-radius:10px 10px 10px 10px;
 font-weight: bold;
 font-size: 14px;
 word-break:break-all;
-
 }
 
 input[type=button] {
-
 position:relative;
 left:10px;
 top:165px;
-
 font-size:16px;
 background:linear-gradient(#ffbc00 5%,#ffdd7f 100%);
 border:1px solid #e5a900;
@@ -163,20 +124,18 @@ cursor:pointer;
 width:100%;
 border-radius:5px;
 padding:10px 0;
-outline:none
+outline:none;
 }
 
 input[type=button]:hover {
-background:linear-gradient(#ffdd7f 5%,#ffbc00 100%)
+background:linear-gradient(#ffdd7f 5%,#ffbc00 100%);
 }
 
 
 input[type=submit] {
-
 position:relative;
 left:10px;
 top:180px; /* 165px */
-
 font-size:16px;
 background:linear-gradient(#ffbc00 5%,#ffdd7f 100%);
 border:1px solid #e5a900;
@@ -186,19 +145,17 @@ cursor:pointer;
 width:100%;
 border-radius:5px;
 padding:10px 0;
-outline:none
+outline:none;
 }
 
 input[type=submit]:hover {
-background:linear-gradient(#ffdd7f 5%,#ffbc00 100%)
+background:linear-gradient(#ffdd7f 5%,#ffbc00 100%);
 }
 
 .reset_form{
-
 position:relative;
 left:10px;
 top:70px; /* 80px */
-
 font-size:16px;
 background:linear-gradient(#ffbc00 5%,#ffdd7f 100%);
 border:1px solid #e5a900;
@@ -208,26 +165,18 @@ cursor:pointer;
 width:100%;
 border-radius:5px;
 padding:10px 0;
-outline:none
-
+outline:none;
 }
 
 .reset_form:hover {
-background:linear-gradient(#ffdd7f 5%,#ffbc00 100%)
+background:linear-gradient(#ffdd7f 5%,#ffbc00 100%);
 }
 
 
 div.msg {
-
 position:relative;
 left:27px; /* 10px */
 top:-4px; /* 1px */
-/*background-color:#e8e8e8;
-padding:1px 15px;
-margin:1px -10px;
-text-align:center;*/
-/*border-radius:10px 10px 10px 10px;*/
 color:#ff0000;
 font-weight: bold;
-
 }
