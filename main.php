@@ -13,7 +13,7 @@ if (preg_match('/^\d{1}/', $word_number)) {
 
   $words_arr = array( "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Sun", "Moon");
   $numb_arr = range(1,9);
-  $symb_arr = array("@", "#", "%". "&", "$", "*", "+", "_", "-");
+  $symb_arr = array("@", "#", "%". "&", "$", "*", "+", "_", "~");
 
  // $words_arr = ($numbers) ? array_merge($words_arr,$numb_arr) : $words_arr;
  // $words_arr = ($symbols) ? array_merge($words_arr,$symb_arr) : $words_arr;
@@ -29,24 +29,29 @@ if (preg_match('/^\d{1}/', $word_number)) {
 
     if($word_number && !$numbers && !$symbols){
 
-      $result .= $words[$x].'&nbsp;&nbsp;';
-      //echo "<br>33 ".$result."<br>";
+      $pwd .= $words[$x].'-';
+      // Remove the last - from the result string
+      $result = substr($pwd, 0, -1);
 
     }
 
     if($word_number && $numbers && !$symbols) {
 
       $numb = array_rand(array_flip($numb_arr), 1);
-      //echo "<br>40  ".$words[$x].$numb."<br>";
-      $result .= $words[$x].$numb.'&nbsp;&nbsp;';
+      //echo "<br>41  ".$words[$x].$numb."<br>";
+      $pwd .= $words[$x].$numb.'-';
+      // Remove the last - from the result string
+      $result = substr($pwd, 0, -1);
 
     }
 
     if($word_number && !$numbers && $symbols) {
 
       $sym = array_rand(array_flip($symb_arr), 1);
-      //echo "<br>48  ".$words[$x].$sym[0]."<br>";
-      $result .= $words[$x].$sym[0].'&nbsp;&nbsp;';
+      //echo "<br>51  ".$words[$x].$sym[0]."<br>";
+      $pwd .= $words[$x].$sym[0].'-';
+      // Remove the last - from the result string
+      $result = substr($pwd, 0, -1);
 
     }
 
@@ -54,8 +59,10 @@ if (preg_match('/^\d{1}/', $word_number)) {
 
       $sym  = array_rand(array_flip($symb_arr), 1);
       $numb = array_rand(array_flip($numb_arr), 1);
-      //echo "<br>57  ".$words[$x].$sym[0].$numb."<br>";
-      $result .= $words[$x].$sym[0].$numb.'&nbsp;&nbsp;';
+      //echo "<br>62  ".$words[$x].$sym[0].$numb."<br>";
+      $pwd .= $words[$x].$sym[0].$numb.'-';
+      // Remove the last - from the result string
+      $result = substr($pwd, 0, -1);
 
     }
 
