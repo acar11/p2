@@ -14,7 +14,7 @@
 A basic application that illustrate the basics of generating passwords using [xkcd] method. (http://xkcd.com/936)
 
 ## Screencast Demo
-<http://www.screencast.com>
+<http://www.screencast.com/t/hHPTRuyUvk>
 
 ## Special instruction for teaching team (TA)
 NA.
