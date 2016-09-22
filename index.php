@@ -33,7 +33,7 @@ else {
     <label class="symbols">Add Symbols: </label>
     <input class="symb_box" name="add_symbols" type="checkbox" value="symbols" <?php if(isset($_POST['add_symbols'])) echo "checked='checked'"; ?>>
 
-    <input type="submit" value="Submit Your Details" />
+    <input type="submit" value="Get me a password, por favor!" />
    </form>
    <span>New Generated password will be shown below.</span>
 
